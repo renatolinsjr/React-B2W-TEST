@@ -16,7 +16,7 @@
 .header {
   align-items: center;
   display: flex;
-  height: 200px;
+  height: 100px;
   flex-direction: column;
   justify-content: center;
 }
@@ -98,7 +98,7 @@
 .bottom-container {
   align-items: center;
   display: flex;
-  height: 200px;
+  height: 100px;
   flex-direction: column;
   justify-content: center;
   z-index: 1;
@@ -131,13 +131,6 @@
 }
 
 /* --- End button --- */
-
-/* If the audio does not work it shows the message */
-.audio {
-  color: #fff;
-  padding: 10px;
-  z-index: 1;
-}
 
 .stars {
   display: block;
@@ -183,4 +176,25 @@
   }
 
 }
+
+@media (min-height: 670px) {
+  
+  body {
+    height: 100%;
+  }
+
+  .header {
+    height: 200px;
+  }
+
+  .bottom-container {
+    height: 200px;
+  }
+
+  .btn__text {
+    font: 1.1rem 'Rajdhani', sans-serif;
+  }
+
+}
+
 /* --- End Media query --- */
