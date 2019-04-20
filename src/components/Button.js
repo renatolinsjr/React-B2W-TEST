@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import { func } from 'prop-types'
 
-export default class TravelButton extends Component {
+export default class Button extends Component {
 
   static propTypes = {
-    planetInfo: func.isRequired,
-    playAudio: func.isRequired
+    planetInfo: func.isRequired
   }
 
   // GET HTTP e som do R2D2
