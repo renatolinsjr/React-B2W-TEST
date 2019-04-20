@@ -1,8 +1,15 @@
 /* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+
 @font-face {
   font-family: Starjedi;
+  font-display: auto;
   src: url('../fonts/Starjedi.ttf');
+}
+
+@font-face {
+  font-family: Rajdhani;
+  font-display: auto;
+  src: url('../fonts/Rajdhani.ttf');
 }
 
 /* App container */
@@ -50,7 +57,7 @@
   align-self: center;
   border: 3px solid #fcd000;
   border-radius: 10px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Starjedi', sans-serif;
   color: #ffffff;
   background-color: #4444444b;
   line-height: 1;
