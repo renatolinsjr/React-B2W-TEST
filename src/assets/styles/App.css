@@ -107,26 +107,26 @@
 /* Start button */
 .btn {
   display: flex;
+  background-color: #444444;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: 15px solid transparent;
+
 }
 
 .btn__text {
   align-self: flex-end;
-  background-color: #444444;
   color: #fff;
   font: 1rem 'Rajdhani', sans-serif;
-  border-radius: 10px;
-  border: 15px solid transparent;
-  cursor: pointer;
-  margin-right: 5px;
-  outline: none;
   align-items: center;
 }
 
-.btn__text:hover {
+.btn:hover {
   background-color: rgba(42, 93, 151, 0.527);
 }
 
-.btn__text:active {
+.btn:active {
   background-color: rgba(255, 217, 4, 0.753);
 }
 

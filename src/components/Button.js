@@ -16,9 +16,9 @@ export default class TravelButton extends Component {
   render() {
     return (
       <div className='bottom-container'>
-        <div className='btn'>
+        <button className='btn'>
           <span className='btn__text' onClick={this.goToNextPlanet} onKeyPress={this.goToNextPlanet}>Go to the next planet</span>
-        </div>
+        </button>
 
       </div>
     )
