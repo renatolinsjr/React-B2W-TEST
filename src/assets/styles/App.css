@@ -1,0 +1,186 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+@font-face {
+  font-family: Starjedi;
+  src: url('../fonts/Starjedi.ttf');
+}
+
+/* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Start header */
+.header {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__title{
+  align-items: baseline;
+  display: inline-flex;
+  font: .9rem 'Starjedi', sans-serif;  
+  color: rgb(255, 233, 31);
+  z-index: 1;
+}
+
+.header__subtitle {
+  font: 1.1rem 'Starjedi', sans-serif;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+/* --- End header --- */
+
+/* Main */
+.main {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Start planet board */
+.planet {
+  align-self: center;
+  border: 3px solid #fcd000;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+  color: #ffffff;
+  background-color: #4444444b;
+  line-height: 1;
+  list-style: none;
+  padding: 10px;
+  text-align: justify;
+}
+
+.planet__info {
+  align-self: center;
+  color: #ffffff;
+  font: 1rem 'Rajdhani', sans-serif;
+  line-height: 2;
+  list-style: none;
+  padding: 5px;
+  text-align: justify;
+}
+
+.planet__label {
+  align-self: center;
+  color: #e5ff00;
+  font: 1rem 'Starjedi', sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  list-style: none;
+  padding: 5px;
+  text-align: justify;
+}
+
+.planet__name {
+  font: 1.5rem 'Starjedi', sans-serif;
+  letter-spacing: .5rem;
+  text-align: center;
+}
+/* --- End planet board --- */
+
+/* Error message for failed fetch */
+.error {
+  align-self: center;
+  color: #fcd000;
+  font-size: .9rem;
+}
+
+/* Bottom container */
+.bottom-container {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* Start button */
+.btn {
+  display: flex;
+}
+
+.btn__text {
+  align-self: flex-end;
+  background-color: #444444;
+  color: #fff;
+  font: 1rem 'Rajdhani', sans-serif;
+  border-radius: 10px;
+  border: 15px solid transparent;
+  cursor: pointer;
+  margin-right: 5px;
+  outline: none;
+  align-items: center;
+}
+
+.btn__text:hover {
+  background-color: rgba(42, 93, 151, 0.527);
+}
+
+.btn__text:active {
+  background-color: rgba(255, 217, 4, 0.753);
+}
+
+/* --- End button --- */
+
+/* If the audio does not work it shows the message */
+.audio {
+  color: #fff;
+  padding: 10px;
+  z-index: 1;
+}
+
+.stars {
+  display: block;
+  min-height: 100vh;
+  position: fixed;
+  width: 100vw;
+  background: #000 url(../images/kk.gif) bottom;
+  background-size: cover;
+}
+
+/* Media query */
+@media (min-width: 48em) { /* 768px */
+
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .header__subtitle {
+    font-size: 1.5rem;
+  }
+
+  .planet {
+    font-size: 1rem;
+    padding: 30px;
+  }
+
+  .planet__name {
+    font-size: 2.5rem;
+  }
+
+  .btn__image {
+    height: 60px;
+  }
+
+  .planet__info {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+  }
+  
+  .planet__label {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+  }
+
+}
+/* --- End Media query --- */
