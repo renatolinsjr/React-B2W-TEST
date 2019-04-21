@@ -5,10 +5,10 @@
 
 - [Requisitos](#Requisitos)	
 - [Demonstração](#DEMO)
-- [Como Funciona a Aplicação](#Como Funciona a Aplicação)
+- [Como Funciona a Aplicação](#Como-Funciona-a-Aplicação)
 - [Instalação](#Instalação)
-- [Redes Sociais e Portfólio](#Redes Sociais e Portfólio)
-- [Domutação do React](#React DOCS)
+- [Redes Sociais e Portfólio](#Redes-Sociais-e-Portfólio)
+- [Domutação do React](#React-DOCS)
 
 ## Requisitos
 
