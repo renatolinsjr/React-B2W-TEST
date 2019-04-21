@@ -18,7 +18,7 @@
 
 ## DEMO
 
-![](https://ibb.co/SPsF4pD)
+![](https://i.ibb.co/PNmqv8s/SW-gif.gif)
 
 https://star-wars-b2w-renato-lins.netlify.com/
 
