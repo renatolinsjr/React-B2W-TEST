@@ -37,7 +37,7 @@ Abra o terminal e digite:
 git clone https://github.com/renatolinsjr/React-B2W-TEST.git
 ```
 
-Agora que você clonou o projeto para o seu computador, será necessário instalar todas as dependências para que a aplicação rodar diretamente no localhost. Para isso, digite o comando abaixo e espere a instalação terminar:
+Agora que você clonou o projeto para o seu computador, será necessário instalar todas as dependências para a aplicação rodar diretamente no localhost. Para isso, digite o comando abaixo e espere a instalação terminar:
 
 ```sh
 npm install
