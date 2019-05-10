@@ -2,7 +2,7 @@
 > Esse projeto foi criado para o teste de Desenvolvedor Front End JR e está sendo disponibilizado como Portfólio.
 
 ## Sumário
-
+s
 - [Requisitos](#Requisitos)	
 - [Demonstração](#DEMO)
 - [Como Funciona a Aplicação](#Como-Funciona-a-Aplicação)
